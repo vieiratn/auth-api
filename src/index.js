@@ -48,7 +48,7 @@ app.use('/auth', authController);
 app.use('/app', appController);
 
 // Iniciando servidor na porta 3000.
-app.listen(3000, (err) => {
+app.listen(process.env.PORT || 3000, (err) => {
   if (err) {
     console.log(err);
   } else {
