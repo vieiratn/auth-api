@@ -6,7 +6,7 @@ Esta API, basicamente fornece três endpoints, respectivamente, para criação d
 
 Criei essa API em Node.js para aprofundar meus conhecimentos em manipulação de usuários com persistência em Banco de Dados. Bem como, a autenticação de usuários com JWT.
 
-## Tecnologias utilizadas.
+## Tecnologias utilizadas
 
 - **Node.js** = Para base do projeto.
 - **Express** = Para criar um servidor rápido e expor endpoints.
@@ -18,7 +18,7 @@ Criei essa API em Node.js para aprofundar meus conhecimentos em manipulação de
 
 ## Rotas (Endpoints)
 
-#### Sign-up
+### Sign-up:
 
 `/auth/sign-up`: Rota para criar um usuário, ela espera um body com o seguinte formato:
 
@@ -30,7 +30,7 @@ Criei essa API em Node.js para aprofundar meus conhecimentos em manipulação de
 
 ---
 
-#### Sign-in
+### Sign-in:
 
 `/auth/sign-in`: Rota para autenticar um usuário, ela espera um body com o seguinte formato:
 
@@ -42,7 +42,7 @@ Criei essa API em Node.js para aprofundar meus conhecimentos em manipulação de
 
 ---
 
-#### App/Main
+### App/Main:
 
 `/app/main`: Rota protegida somente para acesso com o token fornecido, ela espera um body com o seguinte formato:
 
@@ -52,7 +52,7 @@ Criei essa API em Node.js para aprofundar meus conhecimentos em manipulação de
 
 **Retorno do Endpoint**: Mensagem de saudação com ID do usuário logado.
 
-## Como Clonar este Repositório
+## Como clonar este repositório
 
 - Rodar o comando para clonar o repositório: `git clone https://github.com/vieiratn/auth-api.git`
 
@@ -69,7 +69,7 @@ Criei essa API em Node.js para aprofundar meus conhecimentos em manipulação de
 
 - Rodar a aplicação com o comando `yarn start`
 
-**Happy Hacking!** :rocket: :rocket: :rocket:
+:rocket: :rocket: :rocket: **Happy Hacking!** :rocket: :rocket: :rocket:
 
 ## Controle de Versão
 
