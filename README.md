@@ -54,7 +54,7 @@ Criei essa API em Node.js para aprofundar meus conhecimentos em manipulação de
 
 ## Como Clonar este Repositório
 
-- Rodar o comando para clonar o repositório: `git clone `
+- Rodar o comando para clonar o repositório: `git clone https://github.com/vieiratn/auth-api.git`
 
 - Acessar a pasta do projeto e fazer download das dependências externas com o comando: `yarn`
 
