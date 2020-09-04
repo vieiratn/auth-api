@@ -1,0 +1,19 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "An API to authenticate users with MongoDB.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Thiago Nascimento",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3"
+  },
+  "type": "module"
+}
